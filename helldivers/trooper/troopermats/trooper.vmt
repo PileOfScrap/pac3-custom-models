@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$basetexture "models/automatons/troopers/trooper_base"
+	$bumpmap "models/automatons/troopers/trooper_normal"
+	$surfaceprop Metal
+
+	$color2					"[ .6 .6 .6 ]"
+	$blendtintbybasealpha	"1"
+
+	$envmap		"env_cubemap"
+	$envmapcontrast		"1"
+	$envmaptint "[ .1 .1 .1 ]"
+	
+	$phong 1
+	$phongexponenttexture "models/automatons/troopers/trooper_metal"
+	$phongfresnelranges "[0.1 0.5 1]"
+	$halflambert 0
+	$phongdisablehalflambert	1
+	$phongalbedotint 1
+	$phongboost 15
+	$phongalbedoboost	5
+}
