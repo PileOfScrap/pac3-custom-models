@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$BaseTexture" 			   "models\umi_make_shit\body"
+	"$BumpMap" 				   "models\umi_make_shit\body_n"
+
+	$ambientocclusion	1
+	$halflambert	1
+	$nocull	1
+	
+//Phong
+	"$phong"					 "1"
+	"$phongfresnelranges"		 "[0.21 0.853 20]"
+	"$phongexponenttexture"      "models\umi_make_shit\body_exp"
+
+//Detail
+	"$detail" 				   "models\umi_make_shit\body_glow"
+	"$detailscale"			   "1"
+	"$detailblendfactor" 	   "1"
+	"$detailblendmode" 		   "5"
+
+//Selfillum
+	"$selfillum"				   "1"
+	"$selfillummask"			   "models\umi_make_shit\body_glow"
+}
